@@ -1,0 +1,5 @@
+import { PageShell } from '@/components/page-shell';
+
+export default function AboutPage() {
+  return <PageShell title="About" subtitle="AxisEdge Technologies is a digital engineering partner built for precision, speed, and trust."><div className="grid gap-4 md:grid-cols-2"><article className="card"><h2 className="font-display text-xl">Our Standard</h2><p className="mt-3 text-sm text-muted">We operate with senior-level accountability, clear technical governance, and outcomes tied to business performance.</p></article><article className="card"><h2 className="font-display text-xl">Trust Commitments</h2><ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-muted"><li>Security statement: secure coding and least-privilege operational access.</li><li>Code quality statement: peer review, automated checks, and maintainability standards.</li><li>Confidentiality commitment: NDA-first workflows and strict data access controls.</li><li>Communication policy: scheduled reporting with escalation paths and response windows.</li></ul></article></div></PageShell>;
+}
